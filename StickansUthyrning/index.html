@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <link rel="stylesheet" href="../components/components.css">
+    <link rel="stylesheet" href="/StickansUthyrning/index.css">
+</head>
+</head>
+
+<body>
+    <header>
+        <section class="header-section-one">
+            <p class="time">14:22</p>
+
+            <ul class="header notis-list-section">
+                <li><img src="../img/wifi-icon.png" alt="battery icon"></li>
+                <li><img src="../img/signal-icon.png" alt="battery icon"></li>
+                <li><img src="../img/battery-icon.png" alt="battery icon"></li>
+            </ul>
+
+
+        </section>
+
+        <section class="header-section-two">
+            <div><img src="../img/Logga.png" alt="logo"></div>
+            <nav class="dropdown">
+                <button class="menu-button" id="menu-button">
+                    <img class="header-nav-icon" src="../img/menu-ikon.png" alt="nav-icon">
+                    <p>Meny</p>
+                </button>
+                <ul id="dropdown-menu" class="dropdown-menu">
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <div class="main-container">
+
+            <section class="main-section">
+
+                <img src="../img/main-picture.png" alt="tools">
+            </section>
+
+            <article class="register-lincs">
+                <a href="#">Bli medlem</a>
+                <a id="open-popup" href="#">Logga in</a>
+            </article>
+        </div>
+
+
+
+        <section class="login-container" id="popup-overlay">
+            <form id="popup-content">
+
+                <span id="close-popup">X</span>
+
+                <div class="user-box">
+                    <img class="user-login" src="../img/user-login.png" alt="username">
+                    <input id="input" type="text" placeholder="användarnamn" required="">
+
+                </div>
+                <div class="user-box">
+                    <img class="user-login" src="../img/key.png" alt="password">
+                    <input id="input" type="password" placeholder="lösenord" required="">
+                </div>
+
+                <p class="forgot-password">glömt lösenord<a href="#">Klicka</a>här.</p>
+                <button class="login-button" type="submit">Logga in</button>
+            </form>
+        </section>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <section class="footer-section">
+
+            <div class="icons">
+                <span><img src="../img/Nav-icon.png" alt="navIcon"></span>
+                <span><img src="../img/mail-icon.png" alt="mainIcon"></span>
+                <span><img src="../img/call-icon.svg" alt="phoneIcon"></span>
+                <span><img src="../img/mobile.png" alt="mobileIcon"></span>
+            </div>
+            <div class="contactUs">
+                <h3>Kontakta oss</h3>
+                <p>Homegatan 56</p>
+                <p>stickansuthyrning@gmail.com</p>
+                <p>031 7373 85</p>
+                <p>0731 465 383</p>
+            </div>
+
+            <div class="openHours">
+                <h3>Öppettider</h3>
+                <p>Mån: 14:00-18:00</p>
+                <p>Tis: 15:00-19:00</p>
+                <p>Tor: 17:00-20-00</p>
+                <p>Fre: 13:00-17:00</p>
+            </div>
+
+        </section>
+
+
+        <div class="footer-social-wrap">
+            <img class="footer-logo" src="../img/Logga.png" alt="logo">
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/?locale=sv_SE"><img src="../img/facebook-icon.png" alt="facebook"></a>
+
+                <a href="https://www.instagram.com/"><img src="../img/instagram-icon.png" alt="instagram"></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
